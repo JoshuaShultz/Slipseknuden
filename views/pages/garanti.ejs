@@ -1,0 +1,48 @@
+<%- include ../partials/header %>
+<%- include ../partials/leftnav_2 %>
+    <div class="col-sm-9 garanti">
+        <h3 class="garanti-titel">
+            <%= garanti[0].title %>
+        </h3>
+        <p>
+            <%= garanti[0].text %>
+        </p>
+        <br>
+        <p>
+            <%= garanti[0].text2 %>
+        </p>
+
+        <br>
+        <br>
+        <p>Returadressen er:</p>
+        <p>
+            <strong>
+                <%= garanti[0].name %>
+            </strong>
+        </p>
+        <p>
+            <strong>
+                <%= garanti[0].street %>
+            </strong>
+        </p>
+        <p>
+            <strong>
+                <%= garanti[0].city %>
+            </strong>
+        </p>
+        <p>
+            <strong>
+                <%= garanti[0].phone %>
+            </strong>
+        </p>
+        <p>
+            <strong>
+                <%= garanti[0].email %>
+            </strong>
+        </p>
+        <img src="img/slips/10_tern.jpg">
+    </div>
+    </div>
+    </div>
+    </div>
+    <%- include ../partials/footer %>

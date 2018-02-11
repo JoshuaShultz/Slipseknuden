@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    margin: 0;
+}
+
+.navbar a {
+    color: white!important;
+}
+
+.navbar li {
+    margin: 0 1% 0 1%;
+}
+
+.icon {
+    padding: 15px 10px!important;
+}
+
+.navbar input {
+    margin-top: 6%;
+}
+
+.navbar ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.left-nav h4 {
+    text-align: center!important;
+    font-weight: bold;
+}
+
+.left-navbar-down li {
+    padding: 5%;
+    margin-top: 0.4%;
+    background-color: black;
+    list-style-type: none;
+}
+.left-navbar-down li a {
+    padding: 10%;
+    text-decoration: none;
+    color: #fff;
+}
+
+.more {
+    margin: 10% 25%;
+    width: 60%;
+}
+
+.more h6, a {
+    font-weight: bold;
+    color: black;
+}
+
+.product h4 {
+    font-weight: bold;
+}
+
+.product p, .product h4 {
+    margin-left: 25%;
+}
+
+.product .buyBtn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 2% 8%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+.forside_lort {
+    margin-top: 10%;
+    margin-left:10%;
+}
+
+.forside_lort h4 {
+    font-weight: bold;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul li {
+    float: left;
+    margin: 1% 4% 0% 4%;
+}
+
+.more2 {
+    margin: 10% 10%;
+}
+
+.more2 h5, a {
+    font-weight: bold;
+    color: black;
+}
+
+.more2 .more2-text {
+    margin-top: 10%;
+}
+
+.more2 .row {
+    margin-bottom: 5%;
+}
+
+.more2 .buyBtn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 2% 10%;
+    margin-left: 25%;
+    margin-top: 200px;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 10%;
+}
+
+.content h3 {
+    font-weight: bold;
+}
+
+.content img {
+    margin-left: 30%;
+}
+
+.anders {
+    margin-left: 10%;
+}
+
+.anders h6 {
+    font-weight: bold;
+}
+
+.anders .person-text {
+    margin-top: 18%;
+}
+
+.personer {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.garanti-titel {
+    font-weight: bold;
+}
+
+.garanti img {
+    margin-left: 25%;
+}
+
+.form-element {
+    display: flex;
+}
+
+.contact h1 {
+    margin-left: 20%;
+}
+.contact p, .contact input {
+    margin-top: 5%;
+}

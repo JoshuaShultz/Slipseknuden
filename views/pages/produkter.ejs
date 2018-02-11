@@ -1,0 +1,28 @@
+<%- include ../partials/header %>
+<%- include ../partials/leftnav_2 %>
+
+<div class="col-sm-8">
+    <div class="row">
+        <% produkter.produktelementer.forEach(function (item) { %>
+            <div class="col-md-4 product">
+                    <img src="img/slips/1_klassisk_brun.jpg">
+                    <h4><%= item.produkt %></h4>
+                    <p><%= item.monster %></p>
+                    <h4><%= item.prisen %></h4>
+                    <a class="buyBtn" href="">INFO</a>
+            </div>
+        <% }, this); %>
+    </div>
+</div>
+</div>
+        
+                                        
+                                                                                                                                                        
+
+
+
+
+    </div>
+</div>
+
+<%- include ../partials/footer %>
